@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ec44f8e1-cb77-43dd-9461-88261763cab8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51779/MyShowsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyShowsService.xsd" MetadataType="Schema" ID="32e40b5b-4e26-46f8-bea7-1d0fdd4f9698" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyShowsService.disco" MetadataType="Disco" ID="dfd57572-7655-4f04-8691-166a8c4e4a5f" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?disco" />
+    <MetadataFile FileName="MyShowsService1.xsd" MetadataType="Schema" ID="503c1abd-0052-4ac2-af79-758c09f1f3aa" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyShowsService2.xsd" MetadataType="Schema" ID="836cf3d4-d5fd-48c3-a256-1fda96d7143a" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyShowsService.wsdl" MetadataType="Wsdl" ID="039bb045-ce04-4747-88b8-0bc033d5747f" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
