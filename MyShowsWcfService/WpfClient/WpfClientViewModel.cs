@@ -79,7 +79,7 @@ namespace WpfClient
             {
                 return _searchByCountry ?? (_searchByCountry = new RelayCommand(() =>
                 {
-                    ShowMod = client.GetShowsByCountry(QweryCountry);
+                    ShowMod = new List<ShowModel>((client.GetShowsByCountry(QweryCountry)));
                 }));
             }
         }

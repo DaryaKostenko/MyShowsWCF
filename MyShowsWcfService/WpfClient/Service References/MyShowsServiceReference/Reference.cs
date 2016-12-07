@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.Collections.Generic;
-
 namespace WpfClient.MyShowsServiceReference {
     using System.Runtime.Serialization;
     using System;
@@ -331,10 +329,10 @@ namespace WpfClient.MyShowsServiceReference {
     public interface IMyShowsService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyShowsService/GetShowsByCountry", ReplyAction="http://tempuri.org/IMyShowsService/GetShowsByCountryResponse")]
-        List<ShowModel> GetShowsByCountry(string country);
+        WpfClient.MyShowsServiceReference.ShowModel[] GetShowsByCountry(string country);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyShowsService/GetShowsByCountry", ReplyAction="http://tempuri.org/IMyShowsService/GetShowsByCountryResponse")]
-        List<ShowModel> GetShowsByCountryAsync(string country);
+        System.Threading.Tasks.Task<WpfClient.MyShowsServiceReference.ShowModel[]> GetShowsByCountryAsync(string country);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyShowsService/GetShowById", ReplyAction="http://tempuri.org/IMyShowsService/GetShowByIdResponse")]
         WpfClient.MyShowsServiceReference.ShowInfo GetShowById(string id);
@@ -376,11 +374,11 @@ namespace WpfClient.MyShowsServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public List<ShowModel> GetShowsByCountry(string country) {
+        public WpfClient.MyShowsServiceReference.ShowModel[] GetShowsByCountry(string country) {
             return base.Channel.GetShowsByCountry(country);
         }
         
-        public List<ShowModel> GetShowsByCountryAsync(string country) {
+        public System.Threading.Tasks.Task<WpfClient.MyShowsServiceReference.ShowModel[]> GetShowsByCountryAsync(string country) {
             return base.Channel.GetShowsByCountryAsync(country);
         }
         

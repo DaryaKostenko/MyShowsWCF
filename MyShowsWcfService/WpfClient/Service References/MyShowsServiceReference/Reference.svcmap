@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ec44f8e1-cb77-43dd-9461-88261763cab8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d9cb3bf-c75f-4ee1-8b3e-71cb7c9af3e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:51779/MyShowsService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MyShowsService.xsd" MetadataType="Schema" ID="32e40b5b-4e26-46f8-bea7-1d0fdd4f9698" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd2" />
-    <MetadataFile FileName="MyShowsService.disco" MetadataType="Disco" ID="dfd57572-7655-4f04-8691-166a8c4e4a5f" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?disco" />
-    <MetadataFile FileName="MyShowsService1.xsd" MetadataType="Schema" ID="503c1abd-0052-4ac2-af79-758c09f1f3aa" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd0" />
-    <MetadataFile FileName="MyShowsService2.xsd" MetadataType="Schema" ID="836cf3d4-d5fd-48c3-a256-1fda96d7143a" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd1" />
-    <MetadataFile FileName="MyShowsService.wsdl" MetadataType="Wsdl" ID="039bb045-ce04-4747-88b8-0bc033d5747f" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?wsdl" />
+    <MetadataFile FileName="MyShowsService.xsd" MetadataType="Schema" ID="59e1b0d3-b558-471b-b135-a49da79a7ce0" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyShowsService.disco" MetadataType="Disco" ID="ef3189ef-6bf3-4d7f-be94-e031fbc60aaa" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?disco" />
+    <MetadataFile FileName="MyShowsService1.xsd" MetadataType="Schema" ID="4c5c44ce-bcfd-4d39-91c3-22fa2443b16e" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyShowsService2.xsd" MetadataType="Schema" ID="8af6da9b-38a3-4aaf-8263-2a6d52015960" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyShowsService.wsdl" MetadataType="Wsdl" ID="051442b6-9695-4805-b967-47ee27de7481" SourceId="1" SourceUrl="http://localhost:51779/MyShowsService.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
